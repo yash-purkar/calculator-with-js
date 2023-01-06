@@ -8,15 +8,8 @@ Array.from(buttons).forEach(function (currBtn) {
   currBtn.addEventListener("click", function (e) {
     try {
       if (e.target.innerHTML == "=") {
-        if (input.value !== "") {
-          string = eval(string);
-          input.value = string;
-        }
-        else {
-          string = "Enter Valid values";
-          input.value = string;
-        }
-
+        string = eval(string);
+        input.value = string;
       }
       else if (e.target.innerHTML == "C") {
         string = "";
