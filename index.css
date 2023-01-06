@@ -1,0 +1,59 @@
+body {
+  background-color: #fff0ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  margin: 50px auto;
+  box-shadow: 10px 10px 14px #000;
+}
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  color: purple;
+}
+
+.wrap {
+  width: fit-content;
+  align-self: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#input {
+  width: 226px;
+  align-self: center;
+  padding: 17px 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: 1px solid purple;
+  border-bottom: none;
+  background-color: #fff;
+}
+
+.button {
+  width: 60px;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #291e29;
+  border: 1px solid rgb(146, 144, 144);
+}
+
+.btn-violet {
+  background-color: purple;
+}
+.clear {
+  color: red;
+}
+.equals-to {
+  color: greenyellow;
+}
